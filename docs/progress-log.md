@@ -28,3 +28,17 @@ The Raspberry Pi is now set up and ready for the next stage of the home server p
 
 ## Next Step
 Create the project directory structure and start configuring basic server functionality.
+
+## Entry 3 (04/03/2026)
+# Day 2 - Real Home Server Setup
+
+## What I did
+- Set up Samba on the Raspberry Pi so it could function as a network file server.
+- Created and configured a custom shared folder, updated the smb.conf file, fixed the share visibility issue
+- Connected to it from Mac through Finder using SMB.
+
+## Result
+The Raspberry Pi successfully became accessible as a shared network drive, and I was able to open the folder from my Mac and confirm that the connection worked.
+
+## Next Step
+Test file transfers between the Mac and Raspberry Pi, organize the shared storage into useful folders, and continue building the server into a more practical home backup/storage system.
